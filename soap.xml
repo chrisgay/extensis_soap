@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope 
+	 xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+	 xmlns:tns="http://portfolio.extensis/service/asset/" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Body>
+      <n:getRSAPublicEncryptionKey xmlns:n="http://portfolio.extensis/service/asset" name="AssetSEIService">
+	  </n:getRSAPublicEncryptionKey>
+	  <m:encryptPasswordForKeySpec xmlns:m="http://portfolio.extensis/service/asset" name="AssetSEIService">
+      	<m:userName></m:userName>
+		<m:encryptedPassword></m:encryptedPassword>  
+	</m:encryptPasswordForKeySpec>
+</env:Body>
+</env:Envelope>
